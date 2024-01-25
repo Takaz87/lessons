@@ -1,0 +1,40 @@
+body {
+    background-color: #9c9cdf;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    padding: 50px;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grid {
+    margin-bottom: 200px;
+    padding-bottom: 200px;
+    border-bottom: 10px solid #1f1c1c;
+    min-height: 100vh;
+}
+
+.item {
+    border: 5px dashed #0e0a0a;
+    font-size: 40px;
+    padding: .8em;
+    text-align: center;
+}
+
+/* ======================================================== */
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-columns: 400px;
+  grid-auto-flow: dense;
+
+
+}
